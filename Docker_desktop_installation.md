@@ -3,6 +3,8 @@
 <img width="1240" height="618" alt="Screenshot 2026-05-07 040422" src="https://github.com/user-attachments/assets/0acb355d-8dbf-4ec7-a359-4964da970d60" />
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Installation Steps
+
 To install docker desktop on Kali Linux, the following commands are used. 
 
 #### Installing Docker dependencies
@@ -40,4 +42,16 @@ sudo nano /etc/group
 #### test any docker command without sudo
 ````
 docker ps -a
+````
+
+
+## Resource
+
+https://www.kali.org/docs/containers/installing-docker-on-kali/
+
+## Additional Note
+
+To enable nested Virtualization on virtualbox
+```
+VBoxManage modifyvm "VM name" --nested-hw-virt on
 ````
